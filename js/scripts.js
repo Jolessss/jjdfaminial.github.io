@@ -1,4 +1,3 @@
-// Assignment #1: Unit Conversion
 function convert() {
   const typeEl = document.getElementById("convType");
   if (!typeEl) return;
@@ -24,7 +23,6 @@ function convert() {
   resBox.textContent = output;
 }
 
-// Assignment #2: Income Tax Calculator
 function computeTax() {
   const incomeEl = document.getElementById("income");
   if (!incomeEl) return;
@@ -69,7 +67,6 @@ function calculateLoops() {
     return;
   }
 
-  // While Loop: Factorial
   let factorial = 1;
   let i = 1;
   while (i <= n) {
@@ -77,7 +74,6 @@ function calculateLoops() {
     i++;
   }
 
-  // Do-While Loop: Sum
   let sum = 0;
   let j = 1;
   do {
@@ -85,7 +81,6 @@ function calculateLoops() {
     j++;
   } while (j <= n);
 
-  // For Loop: Average
   let avgSum = 0;
   for (let k = 1; k <= n; k++) {
     avgSum += k;
@@ -99,7 +94,6 @@ function calculateLoops() {
   `;
 }
 
-// Assignment #4: Simple Payroll
 let payroll = [];
 
 function addEmployee() {
